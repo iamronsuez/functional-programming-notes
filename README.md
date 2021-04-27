@@ -1,11 +1,9 @@
-# Overal
+# Overall
 
   * currying and composicion 
   * functors / monads 
-
-  functional progaming -> programming with functions
-
-  input (domain) -> output (range)
+  * functional progaming -> programming with functions
+  * a function is represented by: input (domain) -> output (range)
 
 # Whats a function
 
@@ -42,19 +40,19 @@
 
 # Currying
 
-  * i want to remember an argument
-  * i can define a function in terms of a curried function
-  * the data ends up last
+  * I want to remember an argument
+  * I can define a function in terms of a curried function
+  * The data ends up last
 
   ```your function can pass through to your app ```
 
   * why it is useful:
 
-  * takes every argument by itself and returns a new 
-  function expecting to be called with the next 
-  argument until the arguments are fullfilled 
-  and the actual function 
-  is called returning the final value
+    * takes every argument by itself and returns a new 
+    function expecting to be called with the next 
+    argument until the arguments are fullfilled 
+    and the actual function 
+    is called returning the final value
 
 # Composition
 
@@ -94,8 +92,6 @@
 
   * lazy promises
   * allows to manipulate data without running the logic
-
-
   * either <- types theory, is supposed to be this or that 
 
 
